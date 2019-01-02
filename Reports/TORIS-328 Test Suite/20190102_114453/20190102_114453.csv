@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-328 Test Suite,Firefox 64.0,,2019-01-02 11:45:39,2019-01-02 11:46:14,34.173s,PASSED
+,,,,,,
+Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu,Firefox 64.0,,2019-01-02 11:45:40,2019-01-02 11:46:14,33.939s,PASSED
+"openBrowser("""")",Firefox 64.0,,2019-01-02 11:45:40,2019-01-02 11:45:45,4.361s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",Firefox 64.0,,2019-01-02 11:45:45,2019-01-02 11:45:46,1.436s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_You have logged outThank""))",Firefox 64.0,,2019-01-02 11:45:46,2019-01-02 11:45:47,1.233s,PASSED
+"setText(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",Firefox 64.0,,2019-01-02 11:45:47,2019-01-02 11:45:47,0.074s,PASSED
+"setEncryptedText(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Firefox 64.0,,2019-01-02 11:45:47,2019-01-02 11:45:47,0.125s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_By entering the requeste""))",Firefox 64.0,,2019-01-02 11:45:47,2019-01-02 11:45:49,1.204s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/a_Ship View""))",Firefox 64.0,,2019-01-02 11:45:49,2019-01-02 11:45:50,1.428s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker""))",Firefox 64.0,,2019-01-02 11:45:50,2019-01-02 11:45:51,0.602s,PASSED
+delay(10),Firefox 64.0,,2019-01-02 11:45:51,2019-01-02 11:46:01,10.017s,PASSED
+refresh(),Firefox 64.0,,2019-01-02 11:46:01,2019-01-02 11:46:02,1.515s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker""))",Firefox 64.0,,2019-01-02 11:46:02,2019-01-02 11:46:03,0.703s,PASSED
+delay(10),Firefox 64.0,,2019-01-02 11:46:03,2019-01-02 11:46:13,10.002s,PASSED
+closeBrowser(),Firefox 64.0,,2019-01-02 11:46:13,2019-01-02 11:46:14,0.746s,PASSED

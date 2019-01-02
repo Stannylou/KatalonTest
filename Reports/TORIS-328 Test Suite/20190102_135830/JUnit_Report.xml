@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TORIS-328 Test Suite" time="33" tests="0" failures="1" errors="0">
+   <testsuite name="TORIS-328 Test Suite" tests="0" failures="1" errors="0" time="33" timestamp="2019-01-02 13:59:18" hostname="Saa - Lebbie-PC" id="Test Suites/TORIS-328 Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saa\\Katalon Studio\\ShipView\\Reports\\TORIS-328 Test Suite\\20190102_135830"/>
+         <property name="logFiles" value="C:\\Users\\Saa\\Katalon Studio\\ShipView\\Reports\\TORIS-328 Test Suite\\20190102_135830\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Saa - Lebbie-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="61e072c2-f514-4f7a-b138-a37fcf6a10b0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu" classname="Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LEBBIE-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13172, moz:profile: C:\Users\Saa\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61e072c2-f514-4f7a-b138-a37fcf6a10b0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:81)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeBrowser$5.call(Unknown Source)
+	at TORIS-328 Test Ship View -  Experience Entry drop down menu.run(TORIS-328 Test Ship View -  Experience Entry drop down menu:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546466315126.run(TempTestSuite1546466315126.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-02 13:59:18 - [TEST_CASE][FAILED] - Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu: Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LEBBIE-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13172, moz:profile: C:\Users\Saa\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61e072c2-f514-4f7a-b138-a37fcf6a10b0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:81)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeBrowser$5.call(Unknown Source)
+	at TORIS-328 Test Ship View -  Experience Entry drop down menu.run(TORIS-328 Test Ship View -  Experience Entry drop down menu:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546466315126.run(TempTestSuite1546466315126.groovy:36)
+
+
+2019-01-02 13:59:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-02 13:59:19 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-02 13:59:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-02 13:59:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-02 13:59:23 - [TEST_STEP][PASSED] - navigateToUrl("https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"): Navigate to 'https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100' successfully
+
+2019-01-02 13:59:24 - [MESSAGE][PASSED] - Navigate to 'https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100' successfully
+
+2019-01-02 13:59:24 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_You have logged outThank")): Object: 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_You have logged outThank' is clicked on
+
+2019-01-02 13:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_You have logged outThank' is clicked on
+
+2019-01-02 13:59:26 - [TEST_STEP][PASSED] - setText(findTestObject("TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Username_ctl00cphtbx_use"), "Saa"): Text 'Saa' is set on object 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Username_ctl00cphtbx_use'
+
+2019-01-02 13:59:26 - [MESSAGE][PASSED] - Text 'Saa' is set on object 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Username_ctl00cphtbx_use'
+
+2019-01-02 13:59:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Password_ctl00cphtbx_pas"), "0cU2R0tWEjl49ICU6OTr2A=="): Text ****** has been set on object 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Password_ctl00cphtbx_pas'
+
+2019-01-02 13:59:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Password_ctl00cphtbx_pas'
+
+2019-01-02 13:59:26 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_By entering the requeste")): Object: 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_By entering the requeste' is clicked on
+
+2019-01-02 13:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_By entering the requeste' is clicked on
+
+2019-01-02 13:59:28 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/a_Ship View")): Object: 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/a_Ship View' is clicked on
+
+2019-01-02 13:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/a_Ship View' is clicked on
+
+2019-01-02 13:59:29 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker")): Object: 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker' is clicked on
+
+2019-01-02 13:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker' is clicked on
+
+2019-01-02 13:59:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-02 13:59:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-02 13:59:39 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-01-02 13:59:41 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-01-02 13:59:41 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker")): Object: 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker' is clicked on
+
+2019-01-02 13:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker' is clicked on
+
+2019-01-02 13:59:41 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-02 13:59:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-02 13:59:51 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LEBBIE-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13172, moz:profile: C:\Users\Saa\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61e072c2-f514-4f7a-b138-a37fcf6a10b0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:81)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeBrowser$5.call(Unknown Source)
+	at TORIS-328 Test Ship View -  Experience Entry drop down menu.run(TORIS-328 Test Ship View -  Experience Entry drop down menu:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546466315126.run(TempTestSuite1546466315126.groovy:36)
+
+
+2019-01-02 13:59:52 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-01-02 13:59:52 - [MESSAGE][FAILED] - Unable to close browser (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LEBBIE-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13172, moz:profile: C:\Users\Saa\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61e072c2-f514-4f7a-b138-a37fcf6a10b0)
+
+2019-01-02 13:59:52 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LEBBIE-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13172, moz:profile: C:\Users\Saa\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61e072c2-f514-4f7a-b138-a37fcf6a10b0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:81)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeBrowser$5.call(Unknown Source)
+	at TORIS-328 Test Ship View -  Experience Entry drop down menu.run(TORIS-328 Test Ship View -  Experience Entry drop down menu:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546466315126.run(TempTestSuite1546466315126.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-02 13:59:18 - [TEST_CASE][FAILED] - Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu: Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LEBBIE-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13172, moz:profile: C:\Users\Saa\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61e072c2-f514-4f7a-b138-a37fcf6a10b0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:81)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeBrowser$5.call(Unknown Source)
+	at TORIS-328 Test Ship View -  Experience Entry drop down menu.run(TORIS-328 Test Ship View -  Experience Entry drop down menu:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546466315126.run(TempTestSuite1546466315126.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-02 13:59:18 - [TEST_SUITE][FAILED] - TORIS-328 Test Suite: Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LEBBIE-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13172, moz:profile: C:\Users\Saa\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61e072c2-f514-4f7a-b138-a37fcf6a10b0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:81)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeBrowser$5.call(Unknown Source)
+	at TORIS-328 Test Ship View -  Experience Entry drop down menu.run(TORIS-328 Test Ship View -  Experience Entry drop down menu:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546466315126.run(TempTestSuite1546466315126.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-02 13:59:18 - [TEST_SUITE][FAILED] - TORIS-328 Test Suite: Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LEBBIE-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13172, moz:profile: C:\Users\Saa\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61e072c2-f514-4f7a-b138-a37fcf6a10b0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:81)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeBrowser$5.call(Unknown Source)
+	at TORIS-328 Test Ship View -  Experience Entry drop down menu.run(TORIS-328 Test Ship View -  Experience Entry drop down menu:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546466315126.run(TempTestSuite1546466315126.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-328 Test Suite,Edge 17,,2019-01-02 14:00:37,2019-01-02 14:01:08,30.903s,PASSED
+,,,,,,
+Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu,Edge 17,,2019-01-02 14:00:37,2019-01-02 14:01:08,30.672s,PASSED
+"openBrowser("""")",Edge 17,,2019-01-02 14:00:38,2019-01-02 14:00:41,2.951s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",Edge 17,,2019-01-02 14:00:41,2019-01-02 14:00:43,1.965s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_You have logged outThank""))",Edge 17,,2019-01-02 14:00:43,2019-01-02 14:00:43,0.084s,PASSED
+"setText(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",Edge 17,,2019-01-02 14:00:43,2019-01-02 14:00:44,1.065s,PASSED
+"setEncryptedText(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Edge 17,,2019-01-02 14:00:44,2019-01-02 14:00:44,0.141s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_By entering the requeste""))",Edge 17,,2019-01-02 14:00:44,2019-01-02 14:00:44,0.030s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/a_Ship View""))",Edge 17,,2019-01-02 14:00:44,2019-01-02 14:00:44,0.574s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker""))",Edge 17,,2019-01-02 14:00:44,2019-01-02 14:00:46,1.110s,PASSED
+delay(10),Edge 17,,2019-01-02 14:00:46,2019-01-02 14:00:56,10.029s,PASSED
+refresh(),Edge 17,,2019-01-02 14:00:56,2019-01-02 14:00:56,0.666s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker""))",Edge 17,,2019-01-02 14:00:56,2019-01-02 14:00:57,0.566s,PASSED
+delay(10),Edge 17,,2019-01-02 14:00:57,2019-01-02 14:01:07,10.003s,PASSED
+closeBrowser(),Edge 17,,2019-01-02 14:01:07,2019-01-02 14:01:08,1.078s,PASSED

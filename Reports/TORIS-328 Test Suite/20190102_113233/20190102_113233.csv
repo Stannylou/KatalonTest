@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-328 Test Suite,,,2019-01-02 11:34:32,2019-01-02 11:34:35,2.426s,FAILED
+,,,,,,
+Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu,,,2019-01-02 11:34:32,2019-01-02 11:34:35,2.207s,FAILED
+"openBrowser("""")",,,2019-01-02 11:34:33,2019-01-02 11:34:35,1.882s,FAILED

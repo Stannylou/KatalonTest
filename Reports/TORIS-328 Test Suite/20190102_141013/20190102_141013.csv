@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-328 Test Suite,IE 11,,2019-01-02 14:11:30,2019-01-02 14:12:09,38.856s,PASSED
+,,,,,,
+Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu,IE 11,,2019-01-02 14:11:31,2019-01-02 14:12:09,38.631s,PASSED
+"openBrowser("""")",IE 11,,2019-01-02 14:11:31,2019-01-02 14:11:34,2.637s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",IE 11,,2019-01-02 14:11:34,2019-01-02 14:11:35,1.066s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_You have logged outThank""))",IE 11,,2019-01-02 14:11:35,2019-01-02 14:11:37,2.648s,PASSED
+"setText(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",IE 11,,2019-01-02 14:11:37,2019-01-02 14:11:38,0.553s,PASSED
+"setEncryptedText(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",IE 11,,2019-01-02 14:11:38,2019-01-02 14:11:38,0.431s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_By entering the requeste""))",IE 11,,2019-01-02 14:11:38,2019-01-02 14:11:41,2.228s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/a_Ship View""))",IE 11,,2019-01-02 14:11:41,2019-01-02 14:11:42,1.529s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker""))",IE 11,,2019-01-02 14:11:42,2019-01-02 14:11:45,2.654s,PASSED
+delay(10),IE 11,,2019-01-02 14:11:45,2019-01-02 14:11:55,10.021s,PASSED
+refresh(),IE 11,,2019-01-02 14:11:55,2019-01-02 14:11:56,1.229s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker""))",IE 11,,2019-01-02 14:11:56,2019-01-02 14:11:59,2.694s,PASSED
+delay(10),IE 11,,2019-01-02 14:11:59,2019-01-02 14:12:09,10.003s,PASSED
+closeBrowser(),IE 11,,2019-01-02 14:12:09,2019-01-02 14:12:09,0.558s,PASSED
