@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TORIS-328 Test Ship View -  Experience Entry drop down menu</name>
+   <tag>328, 352, 354, 356, 359, 360, 361, 362, 364, 365, 366, 367</tag>
+   <comment></comment>
+   <testCaseGuid>f5217616-7df9-4b99-8c21-51ab3d859037</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-523 Test Suite,,,2018-12-17 15:26:18,2018-12-17 15:26:20,2.359s,FAILED
+,,,,,,
+Test Cases/TORIS-523 Test Ship View - FOM Dashboard export functionality Dev Team role,,,2018-12-17 15:26:18,2018-12-17 15:26:20,2.108s,FAILED
+"openBrowser("""")",,,2018-12-17 15:26:19,2018-12-17 15:26:20,1.808s,FAILED

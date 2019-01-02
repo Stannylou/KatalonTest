@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TORIS-318 Ship View Experience Entry Ship tab data table editing an individual Special Condtions(0) link Ship User role</name>
+   <tag>TORIS-318</tag>
+   <comment></comment>
+   <testCaseGuid>a485d365-9ddc-4c75-9269-a84518c766f2</testCaseGuid>
+</TestCaseEntity>

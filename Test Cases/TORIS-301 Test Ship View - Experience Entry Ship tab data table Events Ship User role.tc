@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TORIS-301 Test Ship View - Experience Entry Ship tab data table Events Ship User role</name>
+   <tag>TORIS-301</tag>
+   <comment></comment>
+   <testCaseGuid>1e9b6f43-2025-4cda-9ed5-9de2dcc17b73</testCaseGuid>
+</TestCaseEntity>

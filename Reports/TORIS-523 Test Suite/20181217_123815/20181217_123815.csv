@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-523 Test Suite,Firefox 64.0,,2018-12-17 12:39:23,2018-12-17 12:40:05,41.834s,PASSED
+,,,,,,
+Test Cases/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role,Firefox 64.0,,2018-12-17 12:39:23,2018-12-17 12:40:04,40.620s,PASSED
+"openBrowser("""")",Firefox 64.0,,2018-12-17 12:39:24,2018-12-17 12:39:28,4.199s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",Firefox 64.0,,2018-12-17 12:39:28,2018-12-17 12:39:30,2.349s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_You have logged outThank""))",Firefox 64.0,,2018-12-17 12:39:30,2018-12-17 12:39:32,1.516s,PASSED
+"setText(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",Firefox 64.0,,2018-12-17 12:39:32,2018-12-17 12:39:32,0.087s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Firefox 64.0,,2018-12-17 12:39:32,2018-12-17 12:39:32,0.150s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_By entering the requeste""))",Firefox 64.0,,2018-12-17 12:39:32,2018-12-17 12:39:34,1.594s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/a_Ship View""))",Firefox 64.0,,2018-12-17 12:39:34,2018-12-17 12:39:35,1.041s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ESSEX (LHD 2)Ship""))",Firefox 64.0,,2018-12-17 12:39:35,2018-12-17 12:39:36,1.193s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ANZIO (CG 68)""))",Firefox 64.0,,2018-12-17 12:39:36,2018-12-17 12:39:37,0.826s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 12:39:37,2018-12-17 12:39:40,3.025s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n""))",Firefox 64.0,,2018-12-17 12:39:40,2018-12-17 12:39:40,0.284s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ANZIO (CG 68)Ship""))",Firefox 64.0,,2018-12-17 12:39:40,2018-12-17 12:39:40,0.323s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 12:39:40,2018-12-17 12:39:43,3.004s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_MAHAN (DDG 72)""))",Firefox 64.0,,2018-12-17 12:39:43,2018-12-17 12:39:44,0.420s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 12:39:44,2018-12-17 12:39:47,3.003s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n""))",Firefox 64.0,,2018-12-17 12:39:47,2018-12-17 12:39:47,0.284s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 12:39:47,2018-12-17 12:39:50,3.003s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_MAHAN (DDG 72)Ship""))",Firefox 64.0,,2018-12-17 12:39:50,2018-12-17 12:39:50,0.333s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ZEPHYR (PC 8)""))",Firefox 64.0,,2018-12-17 12:39:50,2018-12-17 12:39:51,0.360s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 12:39:51,2018-12-17 12:39:54,3.002s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n""))",Firefox 64.0,,2018-12-17 12:39:54,2018-12-17 12:39:54,0.281s,PASSED
+delay(10),Firefox 64.0,,2018-12-17 12:39:54,2018-12-17 12:40:04,10.003s,PASSED

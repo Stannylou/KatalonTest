@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-449 Test Suite,Edge 17,,2018-12-13 07:42:19,2018-12-13 07:43:08,49.017s,FAILED
+,,,,,,
+Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality,Edge 17,Testing the filtering functionality of RE Expiration Tracker.,2018-12-13 07:42:20,2018-12-13 07:43:07,47.671s,FAILED
+"openBrowser("""")",Edge 17,,2018-12-13 07:42:20,2018-12-13 07:42:23,2.628s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/default.aspx?MSG=200"")",Edge 17,,2018-12-13 07:42:23,2018-12-13 07:42:26,3.192s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Your session has expired""))",Edge 17,,2018-12-13 07:42:26,2018-12-13 07:42:26,0.111s,PASSED
+"setText(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",Edge 17,,2018-12-13 07:42:26,2018-12-13 07:42:27,1.064s,PASSED
+"setEncryptedText(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Edge 17,,2018-12-13 07:42:27,2018-12-13 07:42:27,0.103s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_By entering the requeste""))",Edge 17,,2018-12-13 07:42:27,2018-12-13 07:42:27,0.030s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/a_Ship View""))",Edge 17,,2018-12-13 07:42:27,2018-12-13 07:42:28,1.068s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/a_RE Expiration Tracker""))",Edge 17,,2018-12-13 07:42:28,2018-12-13 07:42:30,1.846s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ESSEX (LHD 2)Ship""))",Edge 17,,2018-12-13 07:42:30,2018-12-13 07:42:31,0.878s,PASSED
+delay(5),Edge 17,,2018-12-13 07:42:31,2018-12-13 07:42:36,5.025s,PASSED
+"sendKeys(findTestObject(null), ""a"")",Edge 17,,2018-12-13 07:42:36,2018-12-13 07:42:36,0.068s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/span_ANZIO (CG 68)""))",Edge 17,,2018-12-13 07:42:36,2018-12-13 07:42:36,0.297s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship""))",Edge 17,,2018-12-13 07:42:36,2018-12-13 07:43:07,31.038s,FAILED

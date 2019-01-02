@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TORIS-523 Test Suite" time="115" tests="1" failures="0" errors="0">
+   <testsuite name="TORIS-523 Test Suite" tests="1" failures="0" errors="0" time="115" timestamp="2018-12-17 15:17:18" hostname="Saa - Lebbie-PC" id="Test Suites/TORIS-523 Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saa\\Katalon Studio\\ShipView\\Reports\\TORIS-523 Test Suite\\20181217_151337"/>
+         <property name="logFiles" value="C:\\Users\\Saa\\Katalon Studio\\ShipView\\Reports\\TORIS-523 Test Suite\\20181217_151337\\execution0.log, C:\\Users\\Saa\\Katalon Studio\\ShipView\\Reports\\TORIS-523 Test Suite\\20181217_151337\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Saa - Lebbie-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="07e2f0da-3926-4266-bbcb-b3d589adcb4a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TORIS-523 Test Ship View - FOM Dashboard export functionality Dev Team role" classname="Test Cases/TORIS-523 Test Ship View - FOM Dashboard export functionality Dev Team role" status="PASSED">
+         <system-out><![CDATA[2018-12-17 15:17:18 - [TEST_CASE][PASSED] - Test Cases/TORIS-523 Test Ship View - FOM Dashboard export functionality Dev Team role: Test Cases/TORIS-523 Test Ship View - FOM Dashboard export functionality Dev Team role
+
+2018-12-17 15:17:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-17 15:17:18 - [MESSAGE][INFO] - Starting 'IE' driver
+
+2018-12-17 15:17:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-17 15:17:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-17 15:17:21 - [TEST_STEP][PASSED] - navigateToUrl("https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"): Navigate to 'https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100' successfully
+
+2018-12-17 15:17:23 - [MESSAGE][PASSED] - Navigate to 'https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100' successfully
+
+2018-12-17 15:17:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_You have logged outThank")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_You have logged outThank' is clicked on
+
+2018-12-17 15:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_You have logged outThank' is clicked on
+
+2018-12-17 15:17:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use"), "Saa"): Text 'Saa' is set on object 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use'
+
+2018-12-17 15:17:25 - [MESSAGE][PASSED] - Text 'Saa' is set on object 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use'
+
+2018-12-17 15:17:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas"), "0cU2R0tWEjl49ICU6OTr2A=="): Text ****** has been set on object 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas'
+
+2018-12-17 15:17:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas'
+
+2018-12-17 15:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_By entering the requeste")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_By entering the requeste' is clicked on
+
+2018-12-17 15:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_By entering the requeste' is clicked on
+
+2018-12-17 15:17:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/a_Ship View")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/a_Ship View' is clicked on
+
+2018-12-17 15:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/a_Ship View' is clicked on
+
+2018-12-17 15:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ESSEX (LHD 2)Ship")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ESSEX (LHD 2)Ship' is clicked on
+
+2018-12-17 15:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ESSEX (LHD 2)Ship' is clicked on
+
+2018-12-17 15:17:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ANZIO (CG 68)")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ANZIO (CG 68)' is clicked on
+
+2018-12-17 15:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ANZIO (CG 68)' is clicked on
+
+2018-12-17 15:17:33 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-17 15:17:48 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-12-17 15:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n' is clicked on
+
+2018-12-17 15:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n' is clicked on
+
+2018-12-17 15:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ANZIO (CG 68)Ship")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ANZIO (CG 68)Ship' is clicked on
+
+2018-12-17 15:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ANZIO (CG 68)Ship' is clicked on
+
+2018-12-17 15:17:51 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-17 15:18:06 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-12-17 15:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_MAHAN (DDG 72)")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_MAHAN (DDG 72)' is clicked on
+
+2018-12-17 15:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_MAHAN (DDG 72)' is clicked on
+
+2018-12-17 15:18:08 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-17 15:18:23 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-12-17 15:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n' is clicked on
+
+2018-12-17 15:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n' is clicked on
+
+2018-12-17 15:18:24 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-17 15:18:39 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-12-17 15:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_MAHAN (DDG 72)Ship")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_MAHAN (DDG 72)Ship' is clicked on
+
+2018-12-17 15:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_MAHAN (DDG 72)Ship' is clicked on
+
+2018-12-17 15:18:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ZEPHYR (PC 8)")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ZEPHYR (PC 8)' is clicked on
+
+2018-12-17 15:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ZEPHYR (PC 8)' is clicked on
+
+2018-12-17 15:18:41 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-17 15:18:56 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-12-17 15:18:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n")): Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n' is clicked on
+
+2018-12-17 15:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n' is clicked on
+
+2018-12-17 15:18:58 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-17 15:19:13 - [MESSAGE][PASSED] - Delayed 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-17 15:17:18 - [TEST_SUITE][PASSED] - TORIS-523 Test Suite: Test Cases/TORIS-523 Test Ship View - FOM Dashboard export functionality Dev Team role]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

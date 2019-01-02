@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-523 Test Suite,Chrome 71.0.3578.98,,2018-12-18 13:45:20,2018-12-18 13:46:33,1m - 12.429s,FAILED
+,,,,,,
+Test Cases/TORIS-523 Test Ship View - FOM Dashboard export functionality Dev Team role,Chrome 71.0.3578.98,,2018-12-18 13:45:21,2018-12-18 13:46:32,1m - 11.054s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-18 13:45:24,2018-12-18 13:45:31,7.445s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",Chrome 71.0.3578.98,,2018-12-18 13:45:31,2018-12-18 13:45:39,7.913s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_You have logged outThank""))",Chrome 71.0.3578.98,,2018-12-18 13:45:39,2018-12-18 13:45:43,3.678s,PASSED
+"setText(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",Chrome 71.0.3578.98,,2018-12-18 13:45:43,2018-12-18 13:45:43,0.465s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Chrome 71.0.3578.98,,2018-12-18 13:45:43,2018-12-18 13:45:44,0.803s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_By entering the requeste""))",Chrome 71.0.3578.98,,2018-12-18 13:45:44,2018-12-18 13:45:49,5.532s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/a_Ship View""))",Chrome 71.0.3578.98,,2018-12-18 13:45:49,2018-12-18 13:45:51,1.647s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ESSEX (LHD 2)Ship""))",Chrome 71.0.3578.98,,2018-12-18 13:45:51,2018-12-18 13:46:32,40.978s,FAILED

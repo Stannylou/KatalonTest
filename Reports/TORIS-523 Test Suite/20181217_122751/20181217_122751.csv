@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-523 Test Suite,Firefox 64.0,,2018-12-17 12:28:25,2018-12-17 12:28:56,31.334s,PASSED
+,,,,,,
+Test Cases/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role,Firefox 64.0,,2018-12-17 12:28:25,2018-12-17 12:28:55,30.249s,PASSED
+"openBrowser("""")",Firefox 64.0,,2018-12-17 12:28:25,2018-12-17 12:28:30,4.450s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",Firefox 64.0,,2018-12-17 12:28:30,2018-12-17 12:28:32,1.770s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_You have logged outThank""))",Firefox 64.0,,2018-12-17 12:28:32,2018-12-17 12:28:34,1.871s,PASSED
+"setText(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",Firefox 64.0,,2018-12-17 12:28:34,2018-12-17 12:28:34,0.086s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Firefox 64.0,,2018-12-17 12:28:34,2018-12-17 12:28:34,0.108s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_By entering the requeste""))",Firefox 64.0,,2018-12-17 12:28:34,2018-12-17 12:28:35,1.691s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/a_Ship View""))",Firefox 64.0,,2018-12-17 12:28:35,2018-12-17 12:28:36,0.953s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ESSEX (LHD 2)Ship""))",Firefox 64.0,,2018-12-17 12:28:36,2018-12-17 12:28:37,1.053s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ANZIO (CG 68)""))",Firefox 64.0,,2018-12-17 12:28:37,2018-12-17 12:28:38,0.712s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 12:28:38,2018-12-17 12:28:41,3.027s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n""))",Firefox 64.0,,2018-12-17 12:28:41,2018-12-17 12:28:41,0.267s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ANZIO (CG 68)Ship""))",Firefox 64.0,,2018-12-17 12:28:41,2018-12-17 12:28:42,0.361s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 12:28:42,2018-12-17 12:28:45,3.004s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_MAHAN (DDG 72)""))",Firefox 64.0,,2018-12-17 12:28:45,2018-12-17 12:28:45,0.448s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 12:28:45,2018-12-17 12:28:48,3.002s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n""))",Firefox 64.0,,2018-12-17 12:28:48,2018-12-17 12:28:49,0.244s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 12:28:49,2018-12-17 12:28:52,3.002s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_MAHAN (DDG 72)Ship""))",Firefox 64.0,,2018-12-17 12:28:52,2018-12-17 12:28:52,0.309s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ZEPHYR (PC 8)""))",Firefox 64.0,,2018-12-17 12:28:52,2018-12-17 12:28:52,0.338s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 12:28:52,2018-12-17 12:28:55,3.003s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n""))",Firefox 64.0,,2018-12-17 12:28:55,2018-12-17 12:28:55,0.262s,PASSED

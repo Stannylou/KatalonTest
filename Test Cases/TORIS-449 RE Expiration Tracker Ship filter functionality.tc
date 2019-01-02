@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing the filtering functionality of RE Expiration Tracker.</description>
+   <name>TORIS-449 RE Expiration Tracker Ship filter functionality</name>
+   <tag>449</tag>
+   <comment></comment>
+   <testCaseGuid>54f78505-85fe-4403-a09b-785205ac373e</testCaseGuid>
+</TestCaseEntity>

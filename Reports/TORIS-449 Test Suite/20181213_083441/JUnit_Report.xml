@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TORIS-449 Test Suite" time="45" tests="0" failures="1" errors="0">
+   <testsuite name="TORIS-449 Test Suite" tests="0" failures="1" errors="0" time="45" timestamp="2018-12-13 08:35:07" hostname="Saa - Lebbie-PC" id="Test Suites/TORIS-449 Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saa\\Katalon Studio\\ShipView\\Reports\\TORIS-449 Test Suite\\20181213_083441"/>
+         <property name="logFiles" value="C:\\Users\\Saa\\Katalon Studio\\ShipView\\Reports\\TORIS-449 Test Suite\\20181213_083441\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Saa\\Katalon Studio\\ShipView\\Reports\\TORIS-449 Test Suite\\20181213_083441\\1544718951809.png"/>
+         <property name="hostName" value="Saa - Lebbie-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Edge 17"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="B2E756C0-4DA2-4700-8DC8-156F307A68BD"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality" classname="Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' located by 'By.xpath: //div[(text() = 'ANZIO (CG 68)Ship' or . = 'ANZIO (CG 68)Ship')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TORIS-449 RE Expiration Tracker Ship filter functionality.run(TORIS-449 RE Expiration Tracker Ship filter functionality:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544718881942.run(TempTestSuite1544718881942.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-13 08:35:07 - [TEST_CASE][FAILED] - Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality: Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' located by 'By.xpath: //div[(text() = 'ANZIO (CG 68)Ship' or . = 'ANZIO (CG 68)Ship')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TORIS-449 RE Expiration Tracker Ship filter functionality.run(TORIS-449 RE Expiration Tracker Ship filter functionality:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544718881942.run(TempTestSuite1544718881942.groovy:36)
+
+
+2018-12-13 08:35:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-13 08:35:08 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2018-12-13 08:35:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-13 08:35:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-13 08:35:10 - [TEST_STEP][PASSED] - navigateToUrl("https://toris-demo.solute.us/Extranet/default.aspx?MSG=200"): Navigate to 'https://toris-demo.solute.us/Extranet/default.aspx?MSG=200' successfully
+
+2018-12-13 08:35:11 - [MESSAGE][PASSED] - Navigate to 'https://toris-demo.solute.us/Extranet/default.aspx?MSG=200' successfully
+
+2018-12-13 08:35:11 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Your session has expired")): Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Your session has expired' is clicked on
+
+2018-12-13 08:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Your session has expired' is clicked on
+
+2018-12-13 08:35:11 - [TEST_STEP][PASSED] - setText(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use"), "Saa"): Text 'Saa' is set on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use'
+
+2018-12-13 08:35:12 - [MESSAGE][PASSED] - Text 'Saa' is set on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use'
+
+2018-12-13 08:35:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas"), "0cU2R0tWEjl49ICU6OTr2A=="): Text ****** has been set on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas'
+
+2018-12-13 08:35:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas'
+
+2018-12-13 08:35:12 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_By entering the requeste")): Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_By entering the requeste' is clicked on
+
+2018-12-13 08:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_By entering the requeste' is clicked on
+
+2018-12-13 08:35:12 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/a_Ship View")): Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/a_Ship View' is clicked on
+
+2018-12-13 08:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/a_Ship View' is clicked on
+
+2018-12-13 08:35:13 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/a_RE Expiration Tracker")): Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/a_RE Expiration Tracker' is clicked on
+
+2018-12-13 08:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/a_RE Expiration Tracker' is clicked on
+
+2018-12-13 08:35:15 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ESSEX (LHD 2)Ship")): Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ESSEX (LHD 2)Ship' is clicked on
+
+2018-12-13 08:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ESSEX (LHD 2)Ship' is clicked on
+
+2018-12-13 08:35:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-13 08:35:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-13 08:35:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), "a"): Keys 'a' sent to object: 'tempBody'
+
+2018-12-13 08:35:20 - [MESSAGE][WARNING] - Test object id is null
+
+2018-12-13 08:35:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-12-13 08:35:20 - [MESSAGE][PASSED] - Keys 'a' sent to object: 'tempBody'
+
+2018-12-13 08:35:20 - [TEST_STEP][PASSED] - click(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/span_ANZIO (CG 68)")): Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/span_ANZIO (CG 68)' is clicked on
+
+2018-12-13 08:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/span_ANZIO (CG 68)' is clicked on
+
+2018-12-13 08:35:21 - [TEST_STEP][FAILED] - click(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship")): click(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' located by 'By.xpath: //div[(text() = 'ANZIO (CG 68)Ship' or . = 'ANZIO (CG 68)Ship')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TORIS-449 RE Expiration Tracker Ship filter functionality.run(TORIS-449 RE Expiration Tracker Ship filter functionality:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544718881942.run(TempTestSuite1544718881942.groovy:36)
+
+
+2018-12-13 08:35:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'ANZIO (CG 68)Ship' or . = 'ANZIO (CG 68)Ship')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-13 08:35:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' located by 'By.xpath: //div[(text() = 'ANZIO (CG 68)Ship' or . = 'ANZIO (CG 68)Ship')]' not found)
+[[ATTACHMENT|C:\\Users\\Saa\\Katalon Studio\\ShipView\\Reports\\TORIS-449 Test Suite\\20181213_083441\\1544718951809.png]]
+
+2018-12-13 08:35:51 - [MESSAGE][FAILED] - click(findTestObject("TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' located by 'By.xpath: //div[(text() = 'ANZIO (CG 68)Ship' or . = 'ANZIO (CG 68)Ship')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TORIS-449 RE Expiration Tracker Ship filter functionality.run(TORIS-449 RE Expiration Tracker Ship filter functionality:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544718881942.run(TempTestSuite1544718881942.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-13 08:35:07 - [TEST_CASE][FAILED] - Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality: Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' located by 'By.xpath: //div[(text() = 'ANZIO (CG 68)Ship' or . = 'ANZIO (CG 68)Ship')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TORIS-449 RE Expiration Tracker Ship filter functionality.run(TORIS-449 RE Expiration Tracker Ship filter functionality:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544718881942.run(TempTestSuite1544718881942.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-13 08:35:07 - [TEST_SUITE][FAILED] - TORIS-449 Test Suite: Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' located by 'By.xpath: //div[(text() = 'ANZIO (CG 68)Ship' or . = 'ANZIO (CG 68)Ship')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TORIS-449 RE Expiration Tracker Ship filter functionality.run(TORIS-449 RE Expiration Tracker Ship filter functionality:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544718881942.run(TempTestSuite1544718881942.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-13 08:35:07 - [TEST_SUITE][FAILED] - TORIS-449 Test Suite: Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship' located by 'By.xpath: //div[(text() = 'ANZIO (CG 68)Ship' or . = 'ANZIO (CG 68)Ship')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TORIS-449 RE Expiration Tracker Ship filter functionality.run(TORIS-449 RE Expiration Tracker Ship filter functionality:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544718881942.run(TempTestSuite1544718881942.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-523 Test Suite,Edge 17,,2018-12-18 10:50:34,2018-12-18 10:52:16,1m - 41.574s,PASSED
+,,,,,,
+Test Cases/TORIS-523 Test Ship View - FOM Dashboard export functionality Dev Team role,Edge 17,,2018-12-18 10:50:35,2018-12-18 10:52:15,1m - 40.314s,PASSED
+"openBrowser("""")",Edge 17,,2018-12-18 10:50:35,2018-12-18 10:50:38,2.866s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",Edge 17,,2018-12-18 10:50:38,2018-12-18 10:50:40,1.991s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_You have logged outThank""))",Edge 17,,2018-12-18 10:50:40,2018-12-18 10:50:40,0.102s,PASSED
+"setText(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",Edge 17,,2018-12-18 10:50:40,2018-12-18 10:50:41,1.064s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Edge 17,,2018-12-18 10:50:41,2018-12-18 10:50:41,0.090s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_By entering the requeste""))",Edge 17,,2018-12-18 10:50:41,2018-12-18 10:50:41,0.057s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/a_Ship View""))",Edge 17,,2018-12-18 10:50:41,2018-12-18 10:50:42,1.068s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ESSEX (LHD 2)Ship""))",Edge 17,,2018-12-18 10:50:42,2018-12-18 10:50:44,1.788s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ANZIO (CG 68)""))",Edge 17,,2018-12-18 10:50:44,2018-12-18 10:50:44,0.129s,PASSED
+delay(15),Edge 17,,2018-12-18 10:50:44,2018-12-18 10:50:59,15.021s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n""))",Edge 17,,2018-12-18 10:50:59,2018-12-18 10:50:59,0.152s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_ANZIO (CG 68)Ship""))",Edge 17,,2018-12-18 10:50:59,2018-12-18 10:51:00,0.182s,PASSED
+delay(15),Edge 17,,2018-12-18 10:51:00,2018-12-18 10:51:15,15.002s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_MAHAN (DDG 72)""))",Edge 17,,2018-12-18 10:51:15,2018-12-18 10:51:15,0.067s,PASSED
+delay(15),Edge 17,,2018-12-18 10:51:15,2018-12-18 10:51:30,15.007s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n""))",Edge 17,,2018-12-18 10:51:30,2018-12-18 10:51:30,0.077s,PASSED
+delay(15),Edge 17,,2018-12-18 10:51:30,2018-12-18 10:51:45,15.003s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/div_MAHAN (DDG 72)Ship""))",Edge 17,,2018-12-18 10:51:45,2018-12-18 10:51:45,0.129s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/span_ZEPHYR (PC 8)""))",Edge 17,,2018-12-18 10:51:45,2018-12-18 10:51:45,0.077s,PASSED
+delay(15),Edge 17,,2018-12-18 10:51:45,2018-12-18 10:52:00,15.003s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_Ship View/mat-icon_Ship_fa-lg mat-icon n""))",Edge 17,,2018-12-18 10:52:00,2018-12-18 10:52:00,0.071s,PASSED
+delay(15),Edge 17,,2018-12-18 10:52:00,2018-12-18 10:52:15,15.000s,PASSED

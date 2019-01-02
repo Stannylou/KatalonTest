@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-523 Test Suite,Edge 17,,2018-12-17 09:34:36,2018-12-17 09:35:19,42.811s,FAILED
+,,,,,,
+Test Cases/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role,Edge 17,,2018-12-17 09:34:37,2018-12-17 09:35:18,41.512s,FAILED
+"openBrowser("""")",Edge 17,,2018-12-17 09:34:37,2018-12-17 09:34:40,3.000s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",Edge 17,,2018-12-17 09:34:40,2018-12-17 09:34:42,1.990s,PASSED
+"click(findTestObject(""Object Repository/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role/Page_ATG Extranet/input_You have logged outThank""))",Edge 17,,2018-12-17 09:34:42,2018-12-17 09:34:42,0.107s,PASSED
+"setText(findTestObject(""Object Repository/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",Edge 17,,2018-12-17 09:34:42,2018-12-17 09:34:43,1.063s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Edge 17,,2018-12-17 09:34:43,2018-12-17 09:34:43,0.093s,PASSED
+"click(findTestObject(""Object Repository/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role/Page_ATG Extranet/input_By entering the requeste""))",Edge 17,,2018-12-17 09:34:43,2018-12-17 09:34:43,0.038s,PASSED
+"click(findTestObject(""Object Repository/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role/Page_ATG Extranet/a_Ship View""))",Edge 17,,2018-12-17 09:34:43,2018-12-17 09:34:44,1.071s,PASSED
+"click(findTestObject(""Object Repository/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role/Page_Ship View/div_ESSEX (LHD 2)Ship""))",Edge 17,,2018-12-17 09:34:44,2018-12-17 09:34:47,2.477s,PASSED
+"click(findTestObject(""Object Repository/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role/Page_Ship View/span_ANZIO (CG 68)""))",Edge 17,,2018-12-17 09:34:47,2018-12-17 09:35:18,31.338s,FAILED

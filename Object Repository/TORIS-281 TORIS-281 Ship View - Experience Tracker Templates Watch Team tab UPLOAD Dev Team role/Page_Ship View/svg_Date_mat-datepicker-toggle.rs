@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Date_mat-datepicker-toggle</name>
+   <tag></tag>
+   <elementGuidId>50e42932-750d-4fd8-b10b-31b8cdc6bba5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//svg[@class = 'mat-datepicker-toggle-default-icon ng-star-inserted']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-datepicker-toggle-default-icon ng-star-inserted</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-step-content-0-0&quot;)/post-time-data-table[@class=&quot;ng-tns-c28-47 ng-star-inserted&quot;]/form[@class=&quot;ng-tns-c28-47 ng-touched ng-invalid ng-star-inserted ng-dirty&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c10-48 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-hide-placeholder ng-touched mat-form-field-should-float ng-dirty ng-valid&quot;]/div[@class=&quot;mat-form-field-wrapper&quot;]/div[@class=&quot;mat-form-field-flex&quot;]/div[@class=&quot;mat-form-field-suffix ng-tns-c10-48 ng-star-inserted&quot;]/mat-datepicker-toggle[@class=&quot;mat-datepicker-toggle ng-tns-c28-47&quot;]/button[@class=&quot;mat-icon-button cdk-focused cdk-program-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/svg[@class=&quot;mat-datepicker-toggle-default-icon ng-star-inserted&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

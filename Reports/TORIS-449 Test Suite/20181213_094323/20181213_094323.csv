@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-449 Test Suite,IE 11,,2018-12-13 09:43:50,2018-12-13 09:44:31,41.714s,PASSED
+,,,,,,
+Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality,IE 11,Testing the filtering functionality of RE Expiration Tracker.,2018-12-13 09:43:50,2018-12-13 09:44:31,40.902s,PASSED
+"openBrowser("""")",IE 11,,2018-12-13 09:43:50,2018-12-13 09:43:53,2.752s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/default.aspx?MSG=200"")",IE 11,,2018-12-13 09:43:53,2018-12-13 09:43:54,1.088s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Your session has expired""))",IE 11,,2018-12-13 09:43:54,2018-12-13 09:43:56,2.185s,PASSED
+"setText(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",IE 11,,2018-12-13 09:43:56,2018-12-13 09:43:57,0.577s,PASSED
+"setEncryptedText(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",IE 11,,2018-12-13 09:43:57,2018-12-13 09:43:57,0.521s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_By entering the requeste""))",IE 11,,2018-12-13 09:43:57,2018-12-13 09:43:59,1.932s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/a_Ship View""))",IE 11,,2018-12-13 09:43:59,2018-12-13 09:44:01,1.518s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/a_RE Expiration Tracker""))",IE 11,,2018-12-13 09:44:01,2018-12-13 09:44:03,2.067s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ESSEX (LHD 2)Ship""))",IE 11,,2018-12-13 09:44:03,2018-12-13 09:44:05,2.273s,PASSED
+delay(5),IE 11,,2018-12-13 09:44:05,2018-12-13 09:44:10,5.020s,PASSED
+"sendKeys(findTestObject(null), ""a"")",IE 11,,2018-12-13 09:44:10,2018-12-13 09:44:11,0.405s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/span_ANZIO (CG 68)""))",IE 11,,2018-12-13 09:44:11,2018-12-13 09:44:12,1.736s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ANZIO (CG 68)Ship""))",IE 11,,2018-12-13 09:44:12,2018-12-13 09:44:14,1.543s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/span_ARLEIGH BURKE (DDG 51)""))",IE 11,,2018-12-13 09:44:14,2018-12-13 09:44:16,1.638s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ARLEIGH BURKE (DDG 51)Ship""))",IE 11,,2018-12-13 09:44:16,2018-12-13 09:44:17,1.650s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/span_ARLINGTON (LPD 24)""))",IE 11,,2018-12-13 09:44:17,2018-12-13 09:44:19,1.633s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_ARLINGTON (LPD 24)Ship""))",IE 11,,2018-12-13 09:44:19,2018-12-13 09:44:21,1.693s,PASSED
+"sendKeys(findTestObject(null), ""m"")",IE 11,,2018-12-13 09:44:21,2018-12-13 09:44:21,0.337s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/span_MAHAN (DDG 72)""))",IE 11,,2018-12-13 09:44:21,2018-12-13 09:44:23,1.740s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_MAHAN (DDG 72)Ship""))",IE 11,,2018-12-13 09:44:23,2018-12-13 09:44:24,1.603s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/span_MAKIN ISLAND (LHD 8)""))",IE 11,,2018-12-13 09:44:24,2018-12-13 09:44:26,1.671s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/div_MAKIN ISLAND (LHD 8)Ship""))",IE 11,,2018-12-13 09:44:26,2018-12-13 09:44:28,1.821s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/span_MASON (DDG 87)""))",IE 11,,2018-12-13 09:44:28,2018-12-13 09:44:29,1.744s,PASSED
+"verifyElementText(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/3M/Page_Ship View/th_3M""), ""3M"")",IE 11,,2018-12-13 09:44:29,2018-12-13 09:44:31,1.415s,PASSED

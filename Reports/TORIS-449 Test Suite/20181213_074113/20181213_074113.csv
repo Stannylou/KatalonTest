@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-449 Test Suite,,,2018-12-13 07:42:12,2018-12-13 07:42:17,5.026s,FAILED
+,,,,,,
+Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality,,Testing the filtering functionality of RE Expiration Tracker.,2018-12-13 07:42:12,2018-12-13 07:42:17,4.256s,FAILED
+"openBrowser("""")",,,2018-12-13 07:42:13,2018-12-13 07:42:17,3.899s,FAILED

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-449 Test Suite,Chrome 71.0.3578.80,,2018-12-06 14:30:44,2018-12-06 14:31:19,34.479s,FAILED
+,,,,,,
+Test Cases/TORIS-449 RE Expiration Tracker Ship filter functionality,Chrome 71.0.3578.80,Testing the filtering functionality of RE Expiration Tracker.,2018-12-06 14:30:45,2018-12-06 14:31:18,33.366s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.80,,2018-12-06 14:30:45,2018-12-06 14:30:49,3.898s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/default.aspx?MSG=200"")",Chrome 71.0.3578.80,,2018-12-06 14:30:49,2018-12-06 14:30:52,3.511s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Your session has expired""))",Chrome 71.0.3578.80,,2018-12-06 14:30:52,2018-12-06 14:30:57,5.003s,PASSED
+"setText(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",Chrome 71.0.3578.80,,2018-12-06 14:30:57,2018-12-06 14:30:58,0.151s,PASSED
+"setEncryptedText(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Chrome 71.0.3578.80,,2018-12-06 14:30:58,2018-12-06 14:30:58,0.198s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/input_By entering the requeste""))",Chrome 71.0.3578.80,,2018-12-06 14:30:58,2018-12-06 14:31:00,2.620s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_ATG Extranet/a_Ship View""))",Chrome 71.0.3578.80,,2018-12-06 14:31:00,2018-12-06 14:31:18,17.483s,PASSED
+"click(findTestObject(""TORIS-449 RE Expiration Tracker Ship filter functionality/Page_Ship View/a_RE Expiration Tracker""))",Chrome 71.0.3578.80,,2018-12-06 14:31:18,2018-12-06 14:31:18,0.074s,FAILED

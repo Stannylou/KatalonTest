@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-523 Test Suite,IE 11,,2018-12-18 13:45:20,2018-12-18 13:46:23,1m - 3.290s,FAILED
+,,,,,,
+Test Cases/TORIS-523 Test Ship View - FOM Dashboard export functionality Dev Team role,IE 11,,2018-12-18 13:45:21,2018-12-18 13:46:23,1m - 1.823s,FAILED
+"openBrowser("""")",IE 11,,2018-12-18 13:45:23,2018-12-18 13:45:31,7.673s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",IE 11,,2018-12-18 13:45:31,2018-12-18 13:45:34,3.461s,PASSED
+"click(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_You have logged outThank""))",IE 11,,2018-12-18 13:45:34,2018-12-18 13:45:37,2.574s,PASSED
+"setText(findTestObject(""Object Repository/TORIS-525 Testing the FOM Dashboard Excel export functionality/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",IE 11,,2018-12-18 13:45:37,2018-12-18 13:46:23,46.122s,FAILED

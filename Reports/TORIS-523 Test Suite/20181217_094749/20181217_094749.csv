@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-523 Test Suite,Chrome 71.0.3578.98,,2018-12-17 09:47:53,2018-12-17 09:48:01,7.951s,FAILED
+,,,,,,
+Test Cases/TORIS-523 Test Ship View - Google Chrome - FOM Dashboard export functionality Dev Team role,Chrome 71.0.3578.98,,2018-12-17 09:47:54,2018-12-17 09:48:00,6.803s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-17 09:47:54,2018-12-17 09:47:58,3.802s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",Chrome 71.0.3578.98,,2018-12-17 09:47:58,2018-12-17 09:48:00,1.792s,PASSED
+"click(findTestObject(""Page_ATG Extranet/input_You have logged outThank""))",Chrome 71.0.3578.98,,2018-12-17 09:48:00,2018-12-17 09:48:00,0.844s,FAILED

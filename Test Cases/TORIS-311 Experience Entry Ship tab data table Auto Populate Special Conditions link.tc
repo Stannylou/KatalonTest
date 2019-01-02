@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TORIS-311 Experience Entry Ship tab data table Auto Populate Special Conditions link</name>
+   <tag>311, 395,</tag>
+   <comment></comment>
+   <testCaseGuid>84cc5d01-9ece-4cb6-a659-e9fdd4798426</testCaseGuid>
+</TestCaseEntity>

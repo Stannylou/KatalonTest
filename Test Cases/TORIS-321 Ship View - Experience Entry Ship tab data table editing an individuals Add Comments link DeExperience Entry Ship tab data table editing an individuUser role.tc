@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TORIS-321 Ship View - Experience Entry Ship tab data table editing an individuals Add Comments link DeExperience Entry Ship tab data table editing an individuUser role</name>
+   <tag>TORIS-320,321,323,324,325,415,</tag>
+   <comment></comment>
+   <testCaseGuid>a4df9765-c9ca-43b8-9dc5-a6696ded22c7</testCaseGuid>
+</TestCaseEntity>
