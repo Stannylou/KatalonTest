@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-02T10:05:17</date>
+  <millis>1546452317214</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TORIS-328 Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TORIS-328 Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TORIS-328 Test Suite</property>
+</record>
+<record>
+  <date>2019-01-02T10:05:17</date>
+  <millis>1546452317228</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = LEBBIE-PC$ - Lebbie-PC</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">LEBBIE-PC$ - Lebbie-PC</property>
+</record>
+<record>
+  <date>2019-01-02T10:05:17</date>
+  <millis>1546452317229</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-01-02T10:05:17</date>
+  <millis>1546452317229</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.0.75.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.0.75.1</property>
+</record>
+<record>
+  <date>2019-01-02T10:05:17</date>
+  <millis>1546452317230</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.9.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.9.1.2</property>
+</record>
+<record>
+  <date>2019-01-02T10:05:17</date>
+  <millis>1546452317438</millis>
+  <sequence>5</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TORIS-328 Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

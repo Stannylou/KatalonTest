@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-328 Test Suite,IE 11,,2019-01-02 10:27:07,2019-01-02 10:28:00,52.137s,FAILED
+,,,,,,
+Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu,IE 11,,2019-01-02 10:27:08,2019-01-02 10:27:24,16.718s,FAILED
+"openBrowser("""")",IE 11,,2019-01-02 10:27:08,2019-01-02 10:27:11,3.041s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",IE 11,,2019-01-02 10:27:11,2019-01-02 10:27:24,13.318s,FAILED

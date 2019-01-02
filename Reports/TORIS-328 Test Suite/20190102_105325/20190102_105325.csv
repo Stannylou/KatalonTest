@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TORIS-328 Test Suite,Chrome 71.0.3578.98,,2019-01-02 10:53:32,2019-01-02 10:54:05,32.999s,PASSED
+,,,,,,
+Test Cases/TORIS-328 Test Ship View -  Experience Entry drop down menu,Chrome 71.0.3578.98,,2019-01-02 10:53:32,2019-01-02 10:54:05,32.740s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-02 10:53:32,2019-01-02 10:53:36,3.749s,PASSED
+"navigateToUrl(""https://toris-demo.solute.us/Extranet/Default.aspx?MSG=100"")",Chrome 71.0.3578.98,,2019-01-02 10:53:36,2019-01-02 10:53:38,1.881s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_You have logged outThank""))",Chrome 71.0.3578.98,,2019-01-02 10:53:38,2019-01-02 10:53:39,1.290s,PASSED
+"setText(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Username_ctl00cphtbx_use""), ""Saa"")",Chrome 71.0.3578.98,,2019-01-02 10:53:39,2019-01-02 10:53:39,0.191s,PASSED
+"setEncryptedText(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_Password_ctl00cphtbx_pas""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Chrome 71.0.3578.98,,2019-01-02 10:53:39,2019-01-02 10:53:39,0.184s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/input_By entering the requeste""))",Chrome 71.0.3578.98,,2019-01-02 10:53:39,2019-01-02 10:53:40,0.875s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_ATG Extranet/a_Ship View""))",Chrome 71.0.3578.98,,2019-01-02 10:53:40,2019-01-02 10:53:41,0.719s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker""))",Chrome 71.0.3578.98,,2019-01-02 10:53:41,2019-01-02 10:53:42,1.216s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-02 10:53:42,2019-01-02 10:53:52,10.016s,PASSED
+refresh(),Chrome 71.0.3578.98,,2019-01-02 10:53:52,2019-01-02 10:53:53,0.813s,PASSED
+"click(findTestObject(""TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker""))",Chrome 71.0.3578.98,,2019-01-02 10:53:53,2019-01-02 10:53:54,0.728s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-02 10:53:54,2019-01-02 10:54:04,10.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-02 10:54:04,2019-01-02 10:54:05,0.705s,PASSED

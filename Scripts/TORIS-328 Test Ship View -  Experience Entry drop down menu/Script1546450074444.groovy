@@ -37,3 +37,7 @@ WebUI.refresh()
 
 WebUI.click(findTestObject('TORIS-328 Test Ship View - Experience Entry drop down menu/Page_Ship View/a_Experience Tracker'))
 
+WebUI.delay(10)
+
+WebUI.closeBrowser()
+
